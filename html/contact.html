@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聯絡我們</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+    <nav class="header">
+      
+        <a href="index.html">
+            <img src="../img/logo/WorkSpace.svg">
+        </a>
+        <label for="switch"><img src="../img/logo/menu.png"></label>
+        <input type="checkbox" id="switch">   
+        <ul class="menu">
+            <li><a href="../html/aboutus.html" class="headerAbout">關於我們</a></li>
+            <li><a href="./place.html" class="headerPlace">瀏覽空間</a></li>
+            <li><a href="../html/qa.html" class="headerqa">常見問題</a></li>
+            <li><a href="../html/contact.html" class="headercontact">聯絡我們</a></li>
+            </ul>
+
+    </nav>
+
+    
+    <div class="con_ban con">
+        <!-- <img src="../img/index/index_banner.jpg" > -->
+        <div class="title_text">
+            <h1>聯絡我們</h1>
+  
+        </div>
+    </div>
+    <div class="contact_form">
+        <div class="formtxt">
+        <h2>CONTACT FORM</h2>
+        <h4>為了提供您更完善的服務，請務必輸入正確的資料，謝謝您。</h4>
+    </div>
+    <form action="/formprocess.php" method="post">
+    <div class="form_group">
+    <span>姓名</span>
+    <input type="text" name="name" value="" placeholder="您的姓名">
+    </div>
+
+    <div class="form_group">
+        <span>聯絡電話</span>
+        <input type="text" name="name" value="" placeholder="聯絡電話">
+        </div>
+    <div class="form_group">
+        <span>Email</span>
+        <input type="text" name="name" value="" placeholder="Email">
+        </div>
+    <div class="form_group radio">
+    <span>需要哪種服務</span>
+    <div class="rd3">
+    <label class="form-radio"><input type="radio" name="interest" value="html">小型辦公室</label>
+    <label class="form-radio"><input type="radio" name="interest" value="html">會議室租借</label>
+    <label class="form-radio"><input type="radio" name="interest" value="html">共享辦公室</label>
+    </div>
+</div>
+    <div class="form_group">
+    <span>詢問內容</span>
+    <textarea name="comments" rows="5" cols="20">你的留言</textarea></p>
+    </div>
+
+    <input class="sub_btn" type="submit" value="送出資料">
+        
+      </form>
+
+    </div>
+
+    <div class="footer">
+        <p class="text">
+                本網站為緯育TibaMe前端設計工程師班第74期學員專題作品，本平台僅供學習、展示之用。
+                參考資源：小樹屋
+        </p>
+    </div>
+
+</body>

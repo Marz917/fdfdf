@@ -1,0 +1,90 @@
+.abt{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)), url(../img/banner/about_ban.jpg);
+    
+}
+
+
+.about_con{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 64px;
+}
+
+.about_con h2{
+    font-size: 28px;
+    color: #2F8F63;
+    padding-bottom: 14px;
+}
+
+.about_1{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.about_1 img{
+    /* background-image: url(../img/index/myhq-workspaces-NEFgreoVtig-unsplash.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    
+}
+
+.about_1{
+  padding-bottom: 84px;
+}
+
+
+.abt1text{
+    padding: 20px 20px 20px 20px;
+}
+.abt1text h3{
+   padding-bottom: 30px;
+}
+
+
+.abt1text>p {
+
+    padding-bottom: 20px;
+}
+
+.abt1text p{
+    line-height: 2;
+}
+
+.abtlist span{
+    color: #2F8F63;
+    font-weight: 600;
+}
+
+
+@media (max-width: 575.98px){
+.about_con{
+    width: 375px;
+    padding: auto;
+}
+.abtext1 p{
+    line-height: 1.6;
+}
+.about_1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.about_1 img{
+    width: 100%;
+}
+#ab2{
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+h3{
+width: 375px;
+line-height: 1.6;
+padding: auto;
+
+}
+}

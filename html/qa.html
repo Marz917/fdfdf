@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>常見問題</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/place_info.css">
+    <link rel="stylesheet" href="../css/qa.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <style>       
+      hr{
+          height: 1px;
+          background-color: #f2f2f2;
+          border: none;
+      }
+  </style>
+</head>
+
+<body>
+  <nav class="header">
+      
+    <a href="index.html">
+        <img src="../img/logo/WorkSpace.svg">
+    </a>
+    <label for="switch"><img src="../img/logo/menu.png"></label>
+    <input type="checkbox" id="switch">   
+    <ul class="menu">
+        <li><a href="../html/aboutus.html" class="headerAbout">關於我們</a></li>
+        <li><a href="./place.html" class="headerPlace">瀏覽空間</a></li>
+        <li><a href="../html/qa.html" class="headerqa">常見問題</a></li>
+        <li><a href="../html/contact.html" class="headercontact">聯絡我們</a></li>
+        </ul>
+
+</nav>
+
+
+    <div class="con_ban qa">
+      <!-- <img src="../img/index/index_banner.jpg" > -->
+      <div class="title_text">
+          <h1>常見問題</h1>
+
+      </div>
+  </div>
+
+    <div class="qa_con">
+      <h3>常見問題</h3>
+    <ul class="qa_list">
+        
+        <li>
+          <div class="title">Q.WORKSPACE租借費用如何計算呢？</div>
+          <p>A.依照不同租借模式有不同的收費方式，如需暸解收費方式歡迎聯繫我們。</p>
+        </li>
+        <hr>
+        <li>
+          <div class="title">Q.請問空調是全天候供應嗎?</div>
+          <p>調服務時間為周一至週五8:00-19:30，如需額外時間使用，可洽櫃檯秘書申請。</p>
+        </li>
+        <hr>
+        <li>
+          <div class="title">Q.什麼公司及行業別適合進駐新亮點?</div>
+          <p>A.個人工作室、股票操盤室、新創產業、海外辦事處等，只要您需要辦公空間，就適合進駐新亮點。</p>
+        </li>
+        <hr>
+        <li>
+          <div class="title">Q.共享空間的工作模式?</div>
+          <p>不想天天進辦公室，但又需要一個舒適安靜的辦公空間，到新亮點，您只需要帶著筆電就可以直接工作。</p>
+        </li>
+        <hr>
+        <li>
+          <div class="title">Q.如果租約期間想要換大小辦公室可以嗎？</div>
+          <p>A.可以，租期彈性選擇，可依需求擴大/縮小規模，讓您靈活運用營運資金。</p>
+        </li>
+        <hr>
+        <li>
+          <div class="title">Q.WORKSPACE提供哪些清潔服務呢？</div>
+          <p>A.我們提供公共空間之定期清潔服務，但獨立辦公室之個別空間清潔，須由進駐團隊負責。如需個別清潔服務，亦可向秘書櫃台提出申請。</p>
+        </li>
+        <hr>
+        
+      </ul>
+
+    </div>
+
+    <div class="footer">
+      <p class="text">
+              本網站為緯育TibaMe前端設計工程師班第74期學員專題作品，本平台僅供學習、展示之用。
+              參考資源：小樹屋
+      </p>
+  </div>
+
+    <script>
+        $(".title").click(function(){
+  var x =  $(this).siblings("p")
+    if( x.css("display") == "none"  ){
+      x.slideDown(); 
+    }else{
+      x.slideUp();
+    };
+});
+    </script>
+
+
+</body>
+</html>

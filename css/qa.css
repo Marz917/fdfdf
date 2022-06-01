@@ -1,0 +1,87 @@
+.qa{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)), url(../img/banner/qa_ban.jpg);
+    
+}
+
+.qa_ban{
+    margin-top: 100px;
+    border: 1px solid green;
+    height: 400px;
+    
+}
+
+.qa_ban h1{
+    color: black;
+}
+
+
+.qa_con{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    /* border: 1px solid #f2f2f2; */
+    border-radius: 4px;
+}
+.qa_con h3{
+    padding-bottom: 20px;
+}
+
+
+
+
+.qa_list{
+ 
+margin: 0 auto; 
+width:100%;
+ border: 1px solid #f2f2f2; 
+
+
+
+}
+
+
+
+.title{
+    padding: 16px;
+    font-weight: 600;
+    color: #4a4a4a;
+
+    /* border: 1px solid blue; */
+}
+
+.title {
+    font-size: 24px;
+
+}
+
+.title ,p{
+    line-height: 1.6;
+    padding: 16px;
+    font-size: 16px;
+    /* display: none; */
+}
+
+p{
+    display: none;
+}
+
+.title:hover{
+    cursor: pointer;
+    color: #2F8F63 ;
+}
+
+.qa_list hr{
+/* border: 0.5px; */
+border-color: #f2f2f2;
+}
+
+/* ul li { padding:0; list-style: none; border:1px solid black;}
+.title { padding:0 5px; font:20px/2 "微軟正黑體";color:white; background:#0099cc;cursor: pointer; }
+.title:hover { color:#fff720;}
+p { display:none; padding:0 5px; font:14px/1.5 "微軟正黑體";color:#000; } */
+
+@media (max-width: 575.98px){
+    .qa_con{
+        width: 90%;
+    }
+}

@@ -1,0 +1,208 @@
+*body{
+    box-sizing: border-box;
+    /* font-family: Arial, '微軟正黑體'; */
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* header */
+
+.header{
+
+width: 100%;
+position: fixed;
+top: 0;
+z-index: 100;
+    /* display: sticky; */
+/* height: 48px; */
+padding:20px 14px;
+align-items: center;
+background-color: #fff;
+justify-content: space-between;
+/* display: flex; */
+/* padding: 24 0px; */
+margin-right: 40px;
+
+
+    
+}
+
+/* .headerbar{
+height: 48px;
+display: flex;
+padding:12px 20px;
+align-items: center;
+justify-content: space-between;
+/* background-color: white; */
+
+/* border-bottom: 1px solid #c4c4c4; */
+
+
+
+
+.logoImg{
+line-height: 48px;
+/* width: 200px; */
+/* text-align: center; */
+}
+
+
+
+
+
+
+
+nav li{
+    /* border : 1px solid blue; */
+    margin: 0 12px;
+
+}
+
+nav li a{
+    text-decoration: none;
+    /* color: gray; */
+    color: gray;
+}
+
+nav li a:hover{
+color: #2F8F63;;
+}
+
+h1{
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+h2{
+    
+    font-size: 32px;
+    font-weight: 600;
+}
+
+h3{
+    color: #4a4a4a;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h4{
+    color:#4a4a4a;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+p{
+    font-size: 14px;
+    color:#6a6a6a;
+}
+
+
+/* banner */
+.con_ban{
+    height: 400px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+
+
+
+
+/* footer */
+
+
+.footer{
+    padding:40px 0;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    color: #f7f7f7;
+}
+
+
+
+
+
+nav input {
+    display: none;
+  }
+/* 漢堡按鈕 */
+label {
+    float: right;
+    padding-right: 24px;
+    line-height: 24px;
+}
+ label img{
+    width: 30px;   
+    vertical-align: middle;
+ }
+
+ .menu {
+    clear: both;
+    background: #fff;
+ }
+
+ .menu li{
+    text-align: center;
+    /* border-bottom: 1px solid #efefef; */
+ }  
+
+ .menu li a{
+
+    display: block;
+    padding: 20px 0;
+    font-size: 18px;
+    /* color: #5d5d5d; */
+ }  
+
+ .menu li a:hover{
+  
+    /* background: #5d5d5d; */
+    color: #2F8F63;
+      
+ }
+
+ .menu {
+    max-height: 0;
+    overflow: hidden;
+    margin-right: 20px;
+  }
+
+  input:checked ~ .menu {
+    max-height: 350px;
+  }
+
+  .menu {
+    max-height: 0;
+    overflow: hidden;
+    transition: .2s; /* 動畫秒數 */
+  }
+
+
+  @media screen and (min-width: 768px) {
+    label {
+      display: none;
+    }
+    .menu {
+      float: right;
+      clear: none;
+      max-height: 300px;
+     
+ 
+    }
+
+    .menu li {
+        display: inline-block;
+      }
+    .menu li a {
+          padding: 0 15px;  
+        }
+      }
+    
+  
